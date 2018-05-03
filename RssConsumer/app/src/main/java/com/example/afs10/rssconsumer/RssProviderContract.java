@@ -1,4 +1,4 @@
-package br.ufpe.cin.if1001.rss.db;
+package com.example.afs10.rssconsumer;
 
 import android.content.ContentResolver;
 import android.net.Uri;
@@ -27,6 +27,4 @@ public class RssProviderContract {
 
     // Mime type para um item especifico
     public static final String CONTENT_ITEM_TYPE = ContentResolver.CURSOR_ITEM_BASE_TYPE + "/RssProvider.data.text";
-
 }
-
